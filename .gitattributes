@@ -1,0 +1,8 @@
+# Windows/Colab/Linux 간 줄바꿈 차이로 diff가 커지지 않도록 LF로 통일
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.zip   binary
+*.gz    binary
